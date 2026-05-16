@@ -15,3 +15,4 @@ Dynamic web application for validating user email input and account registration
 
 ## Author
 John 
+

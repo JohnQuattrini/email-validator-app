@@ -1,0 +1,26 @@
+{
+  "name": "email-validator-app",
+  "version": "1.0.0",
+  "description": "Dynamic web application for validating user email input and account registration forms.",
+  "homepage": "https://github.com/JohnQuattrini/email-validator-app#readme",
+  "bugs": {
+    "url": "https://github.com/JohnQuattrini/email-validator-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnQuattrini/email-validator-app.git"
+  },
+  "license": "ISC",
+  "author": "John Quattrini",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.4",
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
