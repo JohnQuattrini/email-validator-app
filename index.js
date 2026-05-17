@@ -17,7 +17,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Serve frontend files from public folder
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 // Supabase connection info
 const supabaseUrl = process.env.SUPABASE_URL;
