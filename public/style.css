@@ -1,0 +1,149 @@
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+  background-color: #1f2937;
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1,
+h2 {
+  color: #1f2937;
+}
+
+/* =========================
+   FORM STYLING
+========================= */
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+button {
+  background-color: #497ff3;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #103ec0;
+}
+
+/* =========================
+   MESSAGE AREA
+========================= */
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* =========================
+   USER LIST
+========================= */
+
+ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* =========================
+   CHART STYLING
+========================= */
+
+canvas {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+/* =========================
+   RANDOM USER CARD
+========================= */
+
+#randomUser {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
+
+#randomUser img {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+/* =========================
+   SMALL SECTION SPACING
+========================= */
+
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="register.html">Register</a>
+  </nav>
+
+  <div class="container">
+
+    <h1>Create Account</h1>
+
+    <!-- REGISTER FORM -->
+    <form id="userForm">
+      <label>Email:</label>
+      <input type="email" id="email" required />
+
+      <br>
+
+      <label>Password:</label>
+      <input type="password" id="password" required />
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="message"></p>
+
+    <hr />
+
+    <!-- USERS LIST -->
+    <h2>Registered Users</h2>
+    <button id="loadUsers">Load Users</button>
+    <ul id="userList"></ul>
+
+    <hr />
+
+    <!-- CHART -->
+    <h2>Email Domain Chart</h2>
+    <canvas id="emailChart"></canvas>
+
+    <hr />
+
+    <!-- RANDOM USER -->
+    <h2>Generate Sample User (External API)</h2>
+    <button id="randomUserButton">Get Random User</button>
+    <div id="randomUser"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
