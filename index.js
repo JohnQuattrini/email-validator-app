@@ -37,6 +37,10 @@ const supabase = supabaseClient.createClient(
 
 app.get('/users', async (req, res) => {
 
+  // Log message to indicate database fetch
+  console.log('Fetching users from database...');
+
+
   // Select all users from Supabase table
   const { data, error } = await supabase
     .from('users')
@@ -46,6 +50,10 @@ app.get('/users', async (req, res) => {
   if (error) {
     return res.status(500).json(error);
   }
+
+// Log number of users retrieved
+  console.log(`Retrieved ${data.length} users`);
+
 
   // Return users
   res.json(data);
